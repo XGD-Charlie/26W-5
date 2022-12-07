@@ -1,9 +1,13 @@
 <html>
 <head>
-	<style>
-	video { object-fit: fill;
-	}
-	</style>
+<style>
+    video {
+        height: 100vh;
+        width: 100%;
+        object-fit: fill; // use "cover" to avoid distortion
+        position: absolute;
+    }
+</style>
 </head>
 <body>
 	<video loop="true" autoplay="autoplay" controls muted>
